@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*css初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+    margin: 0px;
+    padding:0px;
+}
+html{
+    color:#000;
+    background:#fff;
+}
+body{
+    // font: 14px/150% Arial,Verdana,"\5b8b\4f53";
+    font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    position: relative;
+    min-width:1226px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+/*布局公共类*/
+.container{
+  position: relative;
+  width:1226px;
+  height: 100%;
+  margin: auto;
+  padding:auto;
+
+}
+.container::before,.container::after{
+  content:" ";
+  display: table;
+}
+.container::after{
+  clear: both;
+}
+.sep{
+  margin: .25em;
+  color: #424242;
+}

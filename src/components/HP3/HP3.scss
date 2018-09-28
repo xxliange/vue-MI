@@ -1,0 +1,52 @@
+.home-main{
+  padding-top: 22px;
+
+  // 公共类
+  .box-hd{
+    position: relative;
+    height: 58px;
+  }
+  .title{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+  }
+  .more{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  /*******************/
+  .ivu-layout{
+
+
+    .home-brick-row-2-box{
+      height: 686px;
+      margin-bottom: 8px;
+
+      .more-link{
+        font-size: 16px;
+        line-height: 58px;
+        color: #424242;
+        transition: all .4s;
+
+        .ivu-icon{
+          // width: 20px;
+          // height: 20px;
+          padding:4px;
+          margin-top: -3px;
+          margin-left: 8px;
+          font-size: 20px;
+          color:#b0b0b0;
+        }
+      }
+      .more-link:hover{
+        color: #ff6700;
+        cursor:pointer;
+      }
+    }
+
+  }
+}

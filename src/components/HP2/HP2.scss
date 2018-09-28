@@ -1,0 +1,215 @@
+// 开始闪购
+.ivu-layout{
+
+  // 上部控件
+  .box-hd{
+    position: relative;
+    height: 58px;
+
+    .title{
+      margin: 0px;
+      font-size: 22px;
+      font-weight: 200;
+      line-height: 58px;
+      color: #333;
+    }
+
+    .more{
+      position: absolute;
+      top: 24px;
+      right:0px;
+
+      .xm-controls{
+        a{
+          display: inline-block;
+          width: 36px;
+          height: 24px;
+          padding:3px 5px;
+          border: 1px solid #e0e0e0;
+          font-size: 16px;
+          line-height: 0px;
+          text-align: center;
+          color: #b0b0b0;
+        }
+      }
+    }
+  }
+
+  // 下部内容
+  .box-bd{
+    position: relative;
+    width: 1226px;
+    overflow: hidden;
+    padding-bottom: 40px;
+    text-align: center;
+
+    .goods-list{
+      width: 1240px;
+      height: 340px;
+      overflow: hidden;
+
+      .title{
+        color: #212121;
+        margin: 0 20px 3px;
+        font-size: 14px;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .price{
+        font-size: 14px;
+        margin: 0px;
+        color: #ff6709;
+      }
+
+      .desc{
+        height: 18px;
+        margin:  0 20px 12px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #b0b0b0;
+      }
+
+      .thumb{
+        display: block;
+        width: 160px;
+        margin: 0 auto 22px;
+      }
+
+      .xm-flashPurchase-countdown{
+        width: 234px;
+        height: 340px;
+        float: left;
+        background: #f1eded;
+        margin: 0 14px 0 0;
+
+        .rainbow{
+          height: 300px;
+          padding-top: 39px;
+          border-top-width: 1px;
+          border-top-color: #e53935;
+          border-top-style: solid;
+
+          .time-title{
+            font-size: 21px;
+            color: #ef3a3b;
+            padding-top: 15px;
+          }
+        }
+        .countdown{
+          color: white;
+          width: 168px;
+          margin:28px auto 0;
+
+          .box{
+            width: 46px;
+            height: 46px;
+            background:#605751;
+            font-size: 24px;
+            line-height: 46px;
+            float: left;
+          }
+          .dosh{
+            width: 15px;
+            float: left;
+            height: 46px;
+            line-height: 46px;
+            color: #605751;
+            font-size: 28px;
+          }
+        }
+      }
+
+      .xm-carousel-wrapper{
+        // float: left;
+        height: 340px;
+        background: #f1eded;
+        overflow: hidden;
+
+        .xm-flashPurchase-list{
+          width: 2232px;
+          margin-left: 0px;
+          transition: all 0.5s ease ;
+
+          li{
+            position: relative;
+            float: left;
+            width:234px;
+            height: 340px;
+            margin-right: 14px;
+            padding-top: 39px;
+            border-top-width: 1px;
+            border-top-style: solid;
+            background: #fff;
+
+            .flag{
+              background: #e53935;
+              position: absolute;
+              top: 0px;
+              left: 50%;
+              z-index: 2;
+              width: 64px;
+              height: 20px;
+              margin-left: -32px;
+              font-size: 12px;
+              line-height: 20px;
+              color: #fff;
+            }
+
+            del{
+              color: #b0b0b0;
+              text-decoration: line-through;
+            }
+          }
+
+          .item-rainbow-item1{
+           border-top-color: #ffac13;
+
+          }
+          .item-rainbow-item2{
+           border-top-color: #83c44e;
+
+          }
+          .item-rainbow-item3{
+           border-top-color: #2196f3;
+
+          }
+          .item-rainbow-item4{
+           border-top-color: #e53935;
+
+          }
+          .item-rainbow-item5{
+           border-top-color: #00c0a5;
+
+          }
+          .item-rainbow-item6{
+           border-top-color: #ffac13;
+
+          }
+          .item-rainbow-item7{
+           border-top-color: #83c44e;
+
+          }
+          .item-rainbow-item8{
+           border-top-color: #2196f3;
+
+          }
+
+        }
+      }
+    }
+  }
+}
+// 结束闪购
+
+.ivu-layout{
+  .home-banner-box-hero{
+    height: 120px;
+    margin: 2px 0 42px;
+    overflow: hidden;
+  }
+}
